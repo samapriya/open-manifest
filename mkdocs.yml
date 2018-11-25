@@ -1,0 +1,98 @@
+site_name: Open Manifest Library
+site_description: Open Manifest Library
+site_author: Samapriya Roy
+site_url: https://samapriya.github.io/open-manifest/
+theme: 'material'
+# Repository
+repo_name: Open Manifest
+repo_url: https://github.com/samapriya/open-manifest
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 Samapriya Roy'
+
+# Options
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: amber
+    accent: Teal
+  social:
+    - type: github-alt
+      link: https://github.com/samapriya
+    - type: medium
+      link: https://medium.com/@samapriyaroy
+    - type: twitter
+      link: https://twitter.com/samapriyaroy
+    - type: linkedin
+      link: https://www.linkedin.com/in/samapriya
+
+theme:
+  name: null
+  custom_dir: material
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: amber
+    accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Introduction to Open Manifest Library: index.md
+  - Motivation and Setup: projects/prerequisite.md
+  - Getting Started:
+    - Submit Manifest: projects/submit-manifest.md
+    - Submit Image and Metadata: projects/components.md
+  - Export Manifest:
+    - Image Manifest: projects/image-manifest.md
+    - Manifest in Earth Engine: projects/ee-manifest.md
+  - Citations: projects/citations.md
+  - Contact Us: projects/contact.md
+
+google_analytics:
+  -
+  - auto
