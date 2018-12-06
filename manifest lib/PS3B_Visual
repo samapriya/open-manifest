@@ -1,0 +1,3 @@
+data_ps3bv={"id": "","bands": [{"id": "b1"},{"id": "b2"},{"id": "b3"}],"missingData": {"value": "0"},"properties": {"system:time_start":"","product_type":"","orbit":"",
+"provider":"","instrument":"","satellite_id":"","number_of_bands":"","epsg_code":"","resampling_kernel":"","number_of_rows":"","number_of_columns":"","gsd":"",
+"cloud_cover":"","incidence_angle":"","sun_azimuth":"","sun_elevation":"","azimuth_angle":"","spacecraft_angle":""},"tilesets": [{"sources": [{"primaryPath": ""}]}]}

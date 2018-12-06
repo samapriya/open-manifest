@@ -1,0 +1,2 @@
+data_wv03p={"id": "","bands": [{"id": "b1"}],"missingData": {"value": ""},"properties": {"system:time_start":"","satellite_name":"","product_order_id":"","product_catalog_id":"","satellite_id":"","cloud_cover":"",
+"mean_sun_azimuth":"","mean_sun_elevation":"","mean_satellite_azimuth":"","mean_satellite_elevation":"","mean_off_nadir_view_angle":""},"tilesets": [{"sources": [{"primaryPath": ""}]}]}
