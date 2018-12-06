@@ -1,0 +1,1 @@
+*Disclaimer*: *Be respectful of End User License Agreements (EULA), while contributing image metadata. The metadata you submit will not be shared or made open source but only the ingestion manifest derived from them.*
