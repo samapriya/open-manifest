@@ -1,4 +1,6 @@
-# Open-Manifest Library for Google Earth Engine
+# [Open-Manifest Library for Google Earth Engine](https://samapriya.github.io/open-manifest)
+
+[![CyVerse](https://img.shields.io/badge/SupportedBy-CyVerse-blue.svg)](https://www.cyverse.org/)
 
 <p align="center">
   <img width="364" height="360" src="https://i.imgur.com/NSe8FwY.png">
