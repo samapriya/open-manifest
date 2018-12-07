@@ -10,7 +10,7 @@ data_ps4b={"id": "","bands": [{"id": "b1"},{"id": "b2"},{"id": "b3"},{"id": "b4"
 "tilesets": [{"sources": [{"primaryPath": ""}]}]}
 ```
 
-Once you write this to a JSON file you can simply try
+Once you modify this to include the metadata and image path, and write this to a JSON file you can simply use the **```earthengine upload_manifest```** tool to upload the image.
 
 **```
 earthengine upload_manifest "full path to your manifest json file"
