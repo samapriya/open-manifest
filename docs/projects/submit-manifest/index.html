@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Open Manifest Library">
+        <meta name="description" content="Open Manifest for Google Earth Engine">
       
       
         <link rel="canonical" href="https://samapriya.github.io/open-manifest/projects/submit-manifest/">
@@ -38,66 +38,52 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
     
     
       
-        <title>Submit Manifest - Open Manifest Library</title>
+        <title>Submit Manifest - Open Manifest</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
         
-        <meta name="theme-color" content="#ffa000">
+        <meta name="theme-color" content="#2196f3">
       
     
     
-      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Google Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
     <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
     
     
+      
+    
+    
   </head>
   
     
     
-    <body dir="ltr" data-md-color-primary="amber" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="pink">
   
     <svg class="md-svg">
       <defs>
         
         
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
-    viewBox="0 0 416 448" id="__github">
-  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
-        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
-        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
-        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
-        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
-        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
-        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
-        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
-        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
-        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
-        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
-        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
-        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
-        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
-        99.5z" />
-</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
         
       </defs>
     </svg>
@@ -114,7 +100,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://samapriya.github.io/open-manifest/" title="Open Manifest Library" class="md-header-nav__button md-logo">
+        <a href="https://samapriya.github.io/open-manifest" title="Open Manifest" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -126,22 +112,21 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                Open Manifest Library
-              </span>
-              <span class="md-header-nav__topic">
+            <span class="md-header-nav__topic">
+              Open Manifest
+            </span>
+            <span class="md-header-nav__topic">
+              
                 Submit Manifest
-              </span>
-            
+              
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -164,7 +149,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -175,20 +159,18 @@
 
   
 
-
-  <a href="https://github.com/samapriya/open-manifest/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      Open Manifest
+<a href="https://github.com/samapriya/open-manifest/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    Open Manifest
+  </div>
+</a>
           </div>
         </div>
       
@@ -201,61 +183,7 @@
         
       
       
-        
-
-  
-
-<nav class="md-tabs md-tabs--active" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  <li class="md-tabs__item">
-    
-      <a href="../.." title="Introduction to Open Manifest Library" class="md-tabs__link">
-        Introduction to Open Manifest Library
-      </a>
-    
-  </li>
-
-      
-        
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="../eesetup/" title="Getting Started" class="md-tabs__link md-tabs__link--active">
-          Getting Started
-        </a>
-      
-    </li>
-  
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="../ee-manifest/" title="Upload using Manifest" class="md-tabs__link">
-          Upload using Manifest
-        </a>
-      
-    </li>
-  
-
-      
-        
-      
-        
-      
-    </ul>
-  </div>
-</nav>
-      
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -264,12 +192,12 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://samapriya.github.io/open-manifest/" title="Open Manifest Library" class="md-nav__button md-logo">
+    <a href="https://samapriya.github.io/open-manifest" title="Open Manifest" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
     </a>
-    Open Manifest Library
+    Open Manifest
   </label>
   
     <div class="md-nav__source">
@@ -278,20 +206,18 @@
 
   
 
-
-  <a href="https://github.com/samapriya/open-manifest/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      Open Manifest
+<a href="https://github.com/samapriya/open-manifest/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    Open Manifest
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -314,8 +240,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../motivation/" title="Motivation" class="md-nav__link">
-      Motivation
+    <a href="../motivation/" title="Motivation and Setup" class="md-nav__link">
+      Motivation and Setup
     </a>
   </li>
 
@@ -345,18 +271,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../eesetup/" title="Earth Engine Setup" class="md-nav__link">
-      Earth Engine Setup
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -367,38 +281,9 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Submit Manifest
-      </label>
-    
     <a href="./" title="Submit Manifest" class="md-nav__link md-nav__link--active">
       Submit Manifest
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#steps-involved" title="Steps Involved" class="md-nav__link">
-    Steps Involved
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -409,8 +294,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../components/" title="Submit Metadata" class="md-nav__link">
-      Submit Metadata
+    <a href="../components/" title="Submit Image and Metadata" class="md-nav__link">
+      Submit Image and Metadata
     </a>
   </li>
 
@@ -430,11 +315,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
-      Upload using Manifest
+      Export Manifest
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        Upload using Manifest
+        Export Manifest
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -462,8 +347,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../license/" title="License" class="md-nav__link">
-      License
+    <a href="../citations/" title="Citations" class="md-nav__link">
+      Citations
     </a>
   </li>
 
@@ -474,8 +359,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../citations/" title="Citation" class="md-nav__link">
-      Citation
+    <a href="../../contact/" title="Contact Us" class="md-nav__link">
+      Contact Us
     </a>
   </li>
 
@@ -497,22 +382,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#steps-involved" title="Steps Involved" class="md-nav__link">
-    Steps Involved
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -527,19 +396,67 @@
                 
                 
                 <h1 id="submit-manifest"><strong>Submit Manifest</strong><a class="headerlink" href="#submit-manifest" title="Permanent link">&para;</a></h1>
-<p>For now there are two ways of getting a manifest added to the library. For this setup you are submitting a manifest that you created. This can be an empty field manifest or an example manifest that is filled with example values.</p>
-<p>For example a PlanetScope 4Band Analytic Manifest looks like this. Here you will notice that I have added band names as simply b1, b2 and so on but you can modify this to be "Red","Green","NIR" and so on as needed. This is an example of an empty manifest though I have filled in the bandnames for ease.You can submit this as a file so we can verify and upload.</p>
-<div class="codehilite"><pre><span></span><span class="nx">data_ps4b</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;bands&quot;</span><span class="o">:</span> <span class="p">[{</span><span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b1&quot;</span><span class="p">},{</span><span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b2&quot;</span><span class="p">},{</span><span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b3&quot;</span><span class="p">},{</span><span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b4&quot;</span><span class="p">}],</span><span class="s2">&quot;missingData&quot;</span><span class="o">:</span> <span class="p">{</span><span class="s2">&quot;value&quot;</span><span class="o">:</span> <span class="s2">&quot;0&quot;</span><span class="p">},</span><span class="s2">&quot;properties&quot;</span><span class="o">:</span> <span class="p">{</span><span class="s2">&quot;system:time_start&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;product_type&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;orbit&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
-<span class="s2">&quot;provider&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;instrument&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;satellite_id&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;number_of_bands&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;epsg_code&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;resampling_kernel&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;number_of_rows&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;number_of_columns&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;gsd&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
-<span class="s2">&quot;cloud_cover&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;incidence_angle&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;sun_azimuth&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;sun_elevation&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;azimuth_angle&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;spacecraft_angle&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;radiometric_scale_factor&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;reflectance_coefficient_b1&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
-<span class="s2">&quot;reflectance_coefficient_b2&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;reflectance_coefficient_b3&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">,</span><span class="s2">&quot;reflectance_coefficient_b4&quot;</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">},</span><span class="s2">&quot;tilesets&quot;</span><span class="o">:</span> <span class="p">[{</span><span class="s2">&quot;sources&quot;</span><span class="o">:</span> <span class="p">[{</span><span class="s2">&quot;primaryPath&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">}]}]}</span>
+<p>To add a manifest request</p>
+<ul>
+<li>
+<p>Simply open a <a href="https://github.com/samapriya/open-manifest/issues/new/choose">new Github issue</a></p>
+</li>
+<li>
+<p>Upload the issue with the metadata json or xml file or any other format. If the image metadata is part of the image header this will depend on the imagery type.</p>
+</li>
+<li>
+<p>Make sure you have permission to upload the metadata and or imagery file.</p>
+</li>
+</ul>
+<p>This is a community project, so anyone can fork the repo create the manifest file and create a pull request to be merged.</p>
+<p>For example a PlanetScope 4Band Analytic Manifest looks like this. Here you will notice that I have added band names as simply b1, b2 and so on but you can modify this to be "Red","Green","NIR" and so on as needed. This is an example of an empty manifest though I have filled in the bandnames for ease. You can build an ingestion manifest that automatically parses your files and then gets it ready for upload into Google Earth Engine.</p>
+<div class="codehilite"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;bands&quot;</span><span class="o">:</span> <span class="p">[{</span>
+        <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b1&quot;</span>
+    <span class="p">},</span> <span class="p">{</span>
+        <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b2&quot;</span>
+    <span class="p">},</span> <span class="p">{</span>
+        <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b3&quot;</span>
+    <span class="p">},</span> <span class="p">{</span>
+        <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;b4&quot;</span>
+    <span class="p">}],</span>
+    <span class="s2">&quot;missingData&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;value&quot;</span><span class="o">:</span> <span class="s2">&quot;0&quot;</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;properties&quot;</span><span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;system:time_start&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;product_type&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;orbit&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;provider&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;instrument&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;satellite_id&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;number_of_bands&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;epsg_code&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;resampling_kernel&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;number_of_rows&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;number_of_columns&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;gsd&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cloud_cover&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;incidence_angle&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;sun_azimuth&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;sun_elevation&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;azimuth_angle&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;spacecraft_angle&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;radiometric_scale_factor&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;reflectance_coefficient_b1&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;reflectance_coefficient_b2&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;reflectance_coefficient_b3&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;reflectance_coefficient_b4&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;tilesets&quot;</span><span class="o">:</span> <span class="p">[{</span>
+        <span class="s2">&quot;sources&quot;</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="s2">&quot;primaryPath&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
+        <span class="p">}]</span>
+    <span class="p">}]</span>
+<span class="p">}</span>
 </pre></div>
 
-<h4 id="steps-involved">Steps Involved<a class="headerlink" href="#steps-involved" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Get the metadata file that you are using to parse the manifest, and then extract fields to be used for the manifest.</li>
-<li>You can email me to be added as a collaborator or simply email me the manifest file and I will attribute you as contributer of said manifest</li>
-</ul>
 <p><em>Note</em>: <em>All manifest that are submitted are user contributed and are in no way inclusive of all fields in the manifest. The license allows you to modify and extend the manifests as necessary.</em></p>
                 
                   
@@ -561,7 +478,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../eesetup/" title="Earth Engine Setup" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../motivation/" title="Motivation and Setup" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -570,19 +487,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Earth Engine Setup
+                Motivation and Setup
               </span>
             </div>
           </a>
         
         
-          <a href="../components/" title="Submit Metadata" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../components/" title="Submit Image and Metadata" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Submit Metadata
+                Submit Image and Metadata
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -598,7 +515,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2018 - 2019 Samapriya Roy
+            Copyright &copy; 2019 - 2020 Samapriya Roy
           </div>
         
         powered by
@@ -608,7 +525,6 @@
           Material for MkDocs</a>
       </div>
       
-        
   <div class="md-footer-social">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
@@ -622,21 +538,15 @@
     
   </div>
 
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../../assets/javascripts/application.905597d0.js"></script>
+      <script src="../../assets/javascripts/application.a8b5e56f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
-      
-    
-    
-      
-        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","None","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(a){a.host!=document.location.host&&a.addEventListener("click",function(){var e=a.getAttribute("data-md-action")||"follow";ga("send","event","outbound",e,a.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
       
     
   </body>

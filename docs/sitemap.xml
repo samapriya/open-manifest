@@ -2,42 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://samapriya.github.io/open-manifest/</loc>
-     <lastmod>2018-12-07</lastmod>
+     <lastmod>2020-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://samapriya.github.io/open-manifest/projects/motivation/</loc>
-     <lastmod>2018-12-07</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://samapriya.github.io/open-manifest/projects/eesetup/</loc>
-     <lastmod>2018-12-07</lastmod>
+     <lastmod>2020-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://samapriya.github.io/open-manifest/projects/submit-manifest/</loc>
-     <lastmod>2018-12-07</lastmod>
+     <lastmod>2020-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://samapriya.github.io/open-manifest/projects/components/</loc>
-     <lastmod>2018-12-07</lastmod>
+     <lastmod>2020-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://samapriya.github.io/open-manifest/projects/ee-manifest/</loc>
-     <lastmod>2018-12-07</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://samapriya.github.io/open-manifest/projects/license/</loc>
-     <lastmod>2018-12-07</lastmod>
+     <lastmod>2020-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://samapriya.github.io/open-manifest/projects/citations/</loc>
-     <lastmod>2018-12-07</lastmod>
+     <lastmod>2020-03-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://samapriya.github.io/open-manifest/contact/</loc>
+     <lastmod>2020-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
