@@ -1,0 +1,63 @@
+{
+	"name": "asset_path",
+	"tilesets": [{
+		"id": "ps4bsr",
+		"sources": [{
+			"uris": ["path to gs://image"]
+		}]
+	}, {
+		"id": "udm2",
+		"sources": [{
+			"uris": ["path to gs://udm2"]
+		}]
+	}],
+	"bands": [{
+		"id": "b1",
+		"tileset_band_index": 0,
+		"tileset_id": "ps4bsr"
+	}, {
+		"id": "b2",
+		"tileset_band_index": 1,
+		"tileset_id": "ps4bsr"
+	}, {
+		"id": "b3",
+		"tileset_band_index": 2,
+		"tileset_id": "ps4bsr"
+	}, {
+		"id": "b4",
+		"tileset_band_index": 3,
+		"tileset_id": "ps4bsr"
+	}, {
+		"id": "qb1",
+		"tileset_band_index": 0,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb2",
+		"tileset_band_index": 1,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb3",
+		"tileset_band_index": 2,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb4",
+		"tileset_band_index": 3,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb5",
+		"tileset_band_index": 4,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb6",
+		"tileset_band_index": 5,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb7",
+		"tileset_band_index": 6,
+		"tileset_id": "udm2"
+	}, {
+		"id": "qb8",
+		"tileset_band_index": 7,
+		"tileset_id": "udm2"
+	}]
+}
